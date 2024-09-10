@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Ticker Search By API's</h1>
+        <div>
+            <label for="dropdown1">Ticker Search :</label>
+            <select id="dropdown1" name="dropdown1" class="input-filed">
+                <option value=" " disabled selected>Ticker Name</option>
+                <option value="AAPL">AAPL</option>
+                <option value="NVDA">NVDA</option> 
+                <option value="BPSC">BPSC</option>                 
+            </select>
+
+        </div>
+        <div>
+            <label for="dropdown2">Time Interval :</label>
+            <select id="dropdown2" name="dropdown2" class="input-filed">
+                <option value="" disabled selected>Select the time interval</option>
+                <option value="id">1day</option>
+                <option value="5d">2day</option> 
+                <option value="1d">5day</option>                 
+            </select>
+        </div>
+        <button id="gobutton" type="button" class="btn">Go Button</button>
+
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>

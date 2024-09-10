@@ -1,0 +1,45 @@
+.container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    align-content: space-evenly;
+    background-color: #333;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    
+}
+
+.container h1{
+    font-size: 60px;
+    background: -webkit-linear-gradient(rgb(188, 12, 241), rgb(212, 4, 4));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.container label{
+    font-weight: 800;
+    font-size: medium;
+    font-size: x-large;
+
+}
+
+.input-filed{
+    width: 30%;
+    height: 2rem;
+    border-radius: 8px;
+    margin-left: 10px;
+}
+
+.btn{
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: #0a0a0a;
+    font-weight: 600;
+}
+.btn:hover{
+    background-color: #1ddb26;
+    color: #050505;
+}
